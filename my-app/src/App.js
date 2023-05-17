@@ -20,13 +20,15 @@ import './App.css';
 // import UseStateWithObjects from "./components/UseStateWithObjects";
 // import UseEffectCounter from "./components/UseEffectCounter";
 // import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
-import HTTPRequests from "./components/HTTPRequests";
+// import HTTPRequests from "./components/HTTPRequests";
+// import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
 
 
 function App() {
   return (
     <div className="App">
-      <HTTPRequests />
+      <HTTPHooks />
     </div>
   );
 }
